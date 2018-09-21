@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "OpenUDID"
+  s.name         = "FHHOpenUDID"
   s.version      = "1.0.1"
-  s.summary      = "OpenUDID"
+  s.summary      = "FHHOpenUDID"
   s.homepage     = "https://github.com/002and001/OpenUDID"
   s.license      = "MIT"
   s.author       = { "002and001" => "xxewz1@163.com" }
@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.module_name = 'OpenUDID'
   s.ios.deployment_target = '8.0'
   s.frameworks   = "Foundation", "UIKit"
-  s.source_files  = "OpenUDID/*.{h,m}"
+  s.source_files  = "*.{h,m}"
+  s.requires_arc = false
 
 end
